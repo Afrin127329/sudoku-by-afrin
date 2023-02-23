@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Sudoku by Afrin</h1>
+    <hr />
+    <div class="show-error-time">
+      <!-- Errors -->
+      <div id="errors">
+        <h4 id="h4">Errors:</h4>
+        <div id="err">0</div>
+        /5
+      </div>
+      <div id="timer">
+        Timer:
+        <div id="time"></div>
+      </div>
+    </div>
+    <!-- 9*9 Board  -->
+    <div id="board"></div>
+    <br />
+
+    <!-- 9 digits  -->
+    <div id="digits"></div>
+
+    <!-- Pop Up (By default it's not gonna be displayed)-->
+    <div class="popup">
+      <h2>You Lost! 😔</h2>
+      <button id="close">Play Again</button>
+    </div>
+  </body>
+</html>
